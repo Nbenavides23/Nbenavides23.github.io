@@ -17,15 +17,17 @@ class Trainer {
         this.pokemonchildren.push(pokemonObject)
     }
 
-    all(){
+    all() { 
         return this.pokemonchildren  
     }
 
-    get(name){
-        return this.pokemonchildren(name)
-        ........
-    }  
-    
+//     get(name) {
+//         return this.pokemonchildren.find(name) => {
+//             return element.name == name
+//         }
+//     }    
 }
 
+// let Pokemon = new Trainer("superDavid")
+// let poke = new Pokemon(2,3,2,Blaze)
 
