@@ -23,11 +23,9 @@ class Trainer {
 
     get(name){
         return this.pokemonchildren(name)
-    }
+        .
+    }  
     
-    addPokemon(Pokemon){
-        th
-    }
 }
 
 
