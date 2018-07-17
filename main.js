@@ -35,18 +35,22 @@ class Trainer {
 
 let PokemonTrainer = new Trainer("superDavid")
 
-let api = function (pokemonid){
+let showImg = function (pokemonid){
     axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonid}`).then((response) => {
         let data = response.data
         console.log(data)
-        // rename abi
-        let abi = new Pokemon(data.stats[5].base_stat,data.stats[4].base_stat,data.stats[3].base_stat,data.abilities,data.sprites.front_default,data.id,data.name)
+       
+        let showImg = new Pokemon(data.stats[5].base_stat,data.stats[4].base_stat,data.stats[3].base_stat,data.abilities,data.sprites.front_default,data.id,data.name)
         
-        PokemonTrainer.add(abi)
+        PokemonTrainer.add(showImg)
 
     }
 )}
 
-api(4)
-api(69)
-api(17)
+showImg(4)
+showImg(69)
+showImg(17)
+ 
+// let div = document.createElement('div1')
+// div.setAttribute('id','div1')
+// document.body.appendChild(div);

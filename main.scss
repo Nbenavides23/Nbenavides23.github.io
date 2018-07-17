@@ -1,5 +1,8 @@
 @import 'colors';
 
-body{
-    background-color: rgb(255,173,96)
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: $reddish;
 }
