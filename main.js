@@ -26,6 +26,11 @@ class Trainer {
 //             return element.name == name
 //         }
 //     }    
+    get(name){
+        return this.pokemonchildren(name)
+    
+    }  
+    
 }
 
 // let Pokemon = new Trainer("superDavid")
