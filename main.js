@@ -33,6 +33,6 @@ class Trainer {
     
 }
 
-// let Pokemon = new Trainer("superDavid")
+// let Pokemon = new Trainer("superDavid") 
 // let poke = new Pokemon(2,3,2,Blaze)
 
