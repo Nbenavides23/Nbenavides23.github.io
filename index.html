@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pokédex</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    
+
 </head>
+
 <body>
     <div id="main-container">
-        <div id="bigSquare"><p id="pokedexname">Pokémon</p></div>
-        <div id="box" >
-        <div id="Square1"><h3 id="Title1">Charmander</h3></div>
-        <div id="Square2"><h3 id="Title2">Charmander</h3></div>
-        <div id="Square3"><h3 id="Title3">Charmander</h3></div>
-        <div id="SquareImg"></div>
+        <div id="bigSquare">
+            <img id="logo" src="Pokemon.logo.png">
+            <img id="ball" src="pokemon_ball.png">
+        </div>
+        <div id="box">
+            <div id="Square1">
+                <h3 id="Title1">Charmander</h3>
+                <div id="SquareImg1"></div>
+                <div id="Text1"></div>
+            </div>
+            <div id="Square2">
+                <h3 id="Title2">Pidgeotto</h3>
+                <div id="SquareImg2"></div>
+                <div id="Text2"></div>
+            </div>
+            <div id="Square3">
+                <h3 id="Title3">Bellsprout</h3>
+                <div id="SquareImg3"></div>
+                <div id="Text3"></div>
+            </div>
+
+        </div>
     </div>
-    </div>
-    
- 
+
+
+
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
