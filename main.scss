@@ -1,24 +1,84 @@
 @import 'colors';
 
-
-#container {
-    background-color: $reddish;
-    border: 1px solid $black;
-    width: 500px;
-    height: 600px;
-    margin: 150px 0 0 150px;
-    
+#main-container {
+    display: flex;
+     
 
 
-    #header {
-        color: $black;
+    #bigSquare{
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        border: 1px solid $black;
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 100px;
+        background-color: $reddish;
 
-        #title{
-            text-align: center;
-            font-size: 50px;
+        #pokedexname{
+            font-size: 40px;
+            margin-left: 130px;
             margin-top: 200px;
+
             
         }
     }
 
+    #Square1{
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$peachy;
+        margin-top: 100px;
+        margin-bottom: -200px;
+        margin-left: 200px;
+    }
+
+
+    #Square2{
+        display: relative;
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$yellow;
+        // margin-top: 
+        margin-top: -450px;
+        margin-left: 250px;
+
+    }
+    #Square3{
+
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$blue;
+        margin-top: -450px;
+        margin-left: 300px;
+    }
+    #Title1 {
+        margin-left: 15px;
+    }
+    #Title2 {
+        margin-left: 15px;
+    }
+    #Title3 {
+        margin-left: 15px;
+    }
+
+    #SquareImg {
+        margin-top: -450px;
+        margin-left: 400px;
+        width: 200px;
+        height: 200px;
+        border: 1px solid $white;
+        background-color: $lightgreen;
+        border-radius: 10px;
+    }
+    
+
 }
+
+
