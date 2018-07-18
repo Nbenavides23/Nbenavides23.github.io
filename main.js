@@ -51,6 +51,3 @@ showImg(4)
 showImg(69)
 showImg(17)
  
-// let div = document.createElement('div1')
-// div.setAttribute('id','div1')
-// document.body.appendChild(div);
