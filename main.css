@@ -1,6 +1,15 @@
-#container {
-  background-color: #ee4035;
+#main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main-container #bigSquare {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
   border: 1px solid black;
+<<<<<<< HEAD
   width: 500px;
   height: 600px;
   margin: 150px 0 0 150px;
@@ -14,5 +23,130 @@
   text-align: center;
   font-size: 50px;
   margin-top: 200px;
+=======
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 100px;
+  background-color: #ee4035;
+}
+
+#main-container #bigSquare #logo {
+  width: 300px;
+  height: 150px;
+}
+
+#main-container #bigSquare #ball {
+  height: 100px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+#main-container #Square1 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #f37736;
+  margin-top: 100px;
+  margin-bottom: -200px;
+  margin-left: 50px;
+}
+
+#main-container #Square2 {
+  display: relative;
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #fdf498;
+  margin-top: -450px;
+  margin-left: 90px;
+}
+
+#main-container #Square3 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #0392cf;
+  margin-top: -450px;
+  margin-left: 120px;
+}
+
+#main-container #Title1 {
+  margin-left: 15px;
+}
+
+#main-container #SquareImg1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  background-color: #96ceb4;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+#main-container #Text1 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #ffeead;
+  margin-left: 50px;
+}
+
+#main-container #Title2 {
+  margin-left: 15px;
+}
+
+#main-container #SquareImg2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  background-color: #96ceb4;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+#main-container #Text2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #ffeead;
+  margin-left: 50px;
+}
+
+#main-container #Title3 {
+  margin-left: 15px;
+}
+
+#main-container #SquareImg3 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  background-color: #96ceb4;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+#main-container #Text3 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #ffeead;
+  margin-left: 50px;
+}
+
+.pokemonImg {
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#Text2 {
+  margin-top: 100px;
+>>>>>>> c623a52349995146b57d9dff22821b4d2e73b6d4
 }
 /*# sourceMappingURL=main.css.map */

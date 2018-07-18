@@ -1,24 +1,147 @@
 @import 'colors';
 
+#main-container {
+    display: flex;
+     
+    //red square 
+    #bigSquare{
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        border: 1px solid $black;
+        display: inline-block;
+        margin-left: 250px;
+        margin-top: 100px;
+        background-color: $reddish;
 
-#container {
-    background-color: $reddish;
-    border: 1px solid $black;
-    width: 500px;
-    height: 600px;
-    margin: 150px 0 0 150px;
-    
+        #logo{
+            width: 300px;
+            height: 150px;
+        }
 
-
-    #header {
-        color: $black;
-
-        #title{
-            text-align: center;
-            font-size: 50px;
-            margin-top: 200px;
-            
+        #ball{
+            height: 100px;
+            margin-left: 120px;
+            margin-top: 50px;
         }
     }
+    // Peachy square
+    #Square1{
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$peachy;
+        margin-top: 100px;
+        margin-bottom: -200px;
+        margin-left: 50px;
 
+    }
+
+
+    #Square2{
+        display: relative;
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$yellow; 
+        margin-top: -450px;
+        margin-left: 90px;
+
+    }
+    #Square3{
+
+        width: 400px;
+        height: 500px;
+        border: 1px solid $white;
+        border-radius: 10px;
+        background-color:$blue;
+        margin-top: -450px;
+        margin-left: 120px;
+    }
+    #Title1 {
+        margin-left: 15px;
+    }
+    #SquareImg1 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid $white;
+        background-color: $lightgreen;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #Text1 {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid $white;
+        background-color: $yellowish;
+        margin-left: 50px;
+        
+
+    }
+    #Title2 {
+        margin-left: 15px;
+    }
+
+     #SquareImg2 {
+        
+        width: 200px;
+        height: 200px;
+        border: 1px solid $white;
+        background-color: $lightgreen;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #Text2 {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid $white;
+        background-color: $yellowish;
+        margin-left: 50px;
+        
+
+    }
+    #Title3 {
+        margin-left: 15px;
+    }
+
+    #SquareImg3 {
+        
+        width: 200px;
+        height: 200px;
+        border: 1px solid $white;
+        background-color: $lightgreen;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #Text3 {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid $white;
+        background-color: $yellowish;
+        margin-left: 50px;
+        
+
+    }
+    
+
+}
+
+.pokemonImg {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+#Text2 {
+    margin-top: 100px;    
+    
 }
