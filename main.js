@@ -48,7 +48,7 @@ let showImg = function (pokemonid){
 
        
         // Adding the image calling from the API
-        let squareImg = document.getElementById(`SquareImg${img++}`)
+        let squareImg = document.getElementById(`SquareImg${img}`)
         let pokemonImg = document.createElement("img")
         pokemonImg.setAttribute("id",`${pokemon.name}Img`)
         pokemonImg.setAttribute("class","pokemonImg" )
