@@ -40,6 +40,7 @@ let img = 1; // Global Variable
 let showImg = function (pokemonid){
     axios.get(`https://pokeapi-nycda.firebaseio.com/pokemon/${pokemonid}.json`).then((response) => {
         
+
         let data = response.data;
         console.log(data);
 
@@ -55,27 +56,22 @@ let showImg = function (pokemonid){
         // take the square and creating the image
         squareImg.appendChild(pokemonImg)
     
-        //DOM by Id and display text from the api
         let text1 = document.getElementById(`Text${img++}`)
-        // Pokemon's stats 
+        
         text1.innerText = `Hp: ${pokemon.hp} 
         Attack: ${pokemon.attack}
         Defense: ${pokemon.defense}
         Abilities: ${pokemon.abilities[0].ability.name}`;
 
 
-       
 
         pokemonTrainer.add(pokemon)
        
-   
+         
         
 
     }
 )}
-
-
-
 
 showImg(4)
 showImg(17)
