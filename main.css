@@ -1,27 +1,14 @@
+#main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #main-container #bigSquare {
   width: 400px;
   height: 500px;
   border-radius: 10px;
   border: 1px solid black;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  width: 500px;
-  height: 600px;
-  margin: 150px 0 0 150px;
-}
-
-#container #header {
-  color: black;
-}
-
-#container #header #title {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 200px;
-=======
->>>>>>> main.scss
-  display: inline-block;
   margin-left: 250px;
   margin-top: 100px;
   background-color: #ee4035;
@@ -30,43 +17,45 @@
 #main-container #bigSquare #logo {
   width: 300px;
   height: 150px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 #main-container #bigSquare #ball {
   height: 100px;
-  margin-left: 160px;
+  margin-left: 150px;
   margin-top: 50px;
 }
 
 #main-container #Square1 {
+  display: block;
   width: 400px;
   height: 500px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: #ee4035;
+  background-color: #f37736;
   margin-top: 100px;
   margin-bottom: -200px;
   margin-left: 50px;
 }
 
 #main-container #Square2 {
-  display: relative;
+  display: block;
   width: 400px;
   height: 500px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: #ee4035;
+  background-color: #fdf498;
   margin-top: -450px;
   margin-left: 90px;
 }
 
 #main-container #Square3 {
+  display: block;
   width: 400px;
   height: 500px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: #ee4035;
+  background-color: #0392cf;
   margin-top: -450px;
   margin-left: 120px;
 }
@@ -78,19 +67,21 @@
 #main-container #SquareImg1 {
   width: 200px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: #96ceb4;
   border-radius: 10px;
   margin-left: 100px;
+  opacity: 0;
 }
 
 #main-container #Text1 {
   width: 300px;
   height: 200px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: #ffeead;
   margin-left: 50px;
+  opacity: 0;
 }
 
 #main-container #Title2 {
@@ -104,6 +95,7 @@
   background-color: #96ceb4;
   border-radius: 10px;
   margin-left: 100px;
+  opacity: 0;
 }
 
 #main-container #Text2 {
@@ -113,6 +105,8 @@
   border: 1px solid white;
   background-color: #ffeead;
   margin-left: 50px;
+  margin-top: 0px;
+  opacity: 0;
 }
 
 #main-container #Title3 {
@@ -140,27 +134,10 @@
 .pokemonImg {
   width: 150px;
   margin-top: 30px;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 #Text2 {
   margin-top: 100px;
-<<<<<<< HEAD
-  width: 500px;
-  height: 600px;
-  margin: 150px 0 0 150px;
-}
-
-#container #header {
-  color: black;
-}
-
-#container #header #title {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 200px;
-=======
->>>>>>> c623a52349995146b57d9dff22821b4d2e73b6d4
->>>>>>> main.scss
 }
 /*# sourceMappingURL=main.css.map */
