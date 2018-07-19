@@ -1,6 +1,3 @@
-//  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
- 
 let square1 = document.getElementById('Square1');
 let square3 = document.getElementById('Square3');
 let square2 = document.getElementById('Square2');

@@ -55,6 +55,9 @@ let showImg = function (pokemonid){
         pokemonImg.src = pokemon.photo;
         // take the square and creating the image
         squareImg.appendChild(pokemonImg)
+        let title = document.getElementById(`Title${img}`)
+        title.textContent = pokemon.name.toUpperCase();
+
     
         let text1 = document.getElementById(`Text${img++}`)
         

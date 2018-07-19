@@ -33,7 +33,7 @@
         height: 500px;
         border: 1px solid $white;
         border-radius: 10px;
-        background-color:$peachy;
+        background-color:$reddish;
         margin-top: 100px;
         margin-bottom: -200px;
         margin-left: 50px;
@@ -47,7 +47,7 @@
         height: 500px;
         border: 1px solid $white;
         border-radius: 10px;
-        background-color:$yellow; 
+        background-color:$reddish; 
         margin-top: -450px;
         margin-left: 90px;
 
@@ -58,7 +58,7 @@
         height: 500px;
         border: 1px solid $white;
         border-radius: 10px;
-        background-color:$blue;
+        background-color:$reddish;
         margin-top: -450px;
         margin-left: 120px;
     }
@@ -83,6 +83,7 @@
         background-color: $yellowish;
         margin-left: 50px;
         opacity: 0;
+        text-align: center;
         
 
     }
@@ -110,6 +111,7 @@
         margin-left: 50px;
         margin-top: 0px;
         opacity: 0;
+        text-align: center;
 
     }
     #Title3 {
@@ -133,6 +135,7 @@
         border: 1px solid $white;
         background-color: $yellowish;
         margin-left: 50px;
+        text-align: center;
         
         
 
