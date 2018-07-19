@@ -18,11 +18,12 @@
 #main-container #bigSquare #logo {
   width: 300px;
   height: 150px;
+  margin-left: 50px;
 }
 
 #main-container #bigSquare #ball {
   height: 100px;
-  margin-left: 120px;
+  margin-left: 160px;
   margin-top: 50px;
 }
 
@@ -127,7 +128,7 @@
 .pokemonImg {
   width: 150px;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 #Text2 {
