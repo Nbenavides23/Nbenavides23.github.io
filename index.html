@@ -7,14 +7,16 @@
     <title>Pokédex</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
 </head>
 
 <body>
     <div id="main-container">
         <div id="bigSquare">
-            <img id="logo" src="Pokemon.logo.png">
-            <img id="ball" src="pokemon_ball.png">
+            <img id="logo" src="Pokemon.logo.png" class="animated 2s zoomIn">
+            <img id="ball" src="pokemon_ball.png" class="animated 2s rotateIn" >
         </div>
         <div id="box">
             <div id="Square1">
@@ -38,8 +40,9 @@
 
 
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+           crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
     <script src="main.js"></script>
